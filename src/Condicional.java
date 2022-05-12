@@ -1,12 +1,10 @@
 public class Condicional {
     public static void main(String[] args){
-        int acao = 2;
-        if (acao==1){
-            System.out.println("acao é 1");
-        } else if(acao==2) {
-            System.out.println("acao é 2");
+        int n=4;
+        if(n!=4){
+            System.out.println("Teste Verdadeiro");
         } else {
-            System.out.println("Fora das escolha");
+            System.out.println("Teste Falso");
         }
     }
 }
